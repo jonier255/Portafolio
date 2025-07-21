@@ -1,0 +1,8 @@
+// backend/.sequelizerc
+import { resolve } from 'path';
+export default {
+  'config': resolve('src', 'config', 'config.js'),
+  'models-path': resolve('src', 'models'),
+  'migrations-path': resolve('src', 'migrations'),
+  'seeders-path': resolve('src', 'seeders'),
+};
